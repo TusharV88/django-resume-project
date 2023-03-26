@@ -1,0 +1,32 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/face.jpg'%}" alt="img" class="img-thumbnail rounded-2" width="250px">
+        <h1 class="text-center text-white mt-3" style="font-family: roboto slab;">Md. Shohel Rana</h1>
+        <p class="text-center text-white">Web Developer</p>
+    </div>
+    <div class="text-white m-5">
+        <h1 style="font-family: roboto slab;">Hello,</h1>
+        <div class="text-justify px-4" style="line-height: 1.8rem;">
+            <p style="text-indent: 100px;">I am <b class="text-warning">Md. Shohel Rana</b>. I am a web developer. I
+                have 2 years of experience
+                in web development. I have worked with many companies.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa odit eligendi numquam eius incidunt,
+                fugit inventore, expedita, voluptas doloremque accusamus ex? Culpa pariatur neque veritatis laboriosam
+                perferendis consequuntur quos corporis qui iste, numquam nostrum officiis!
+            </p>
+        </div>
+        <div class="text-center mt-5">
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning mx-5">Download CV</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning">Contact Me</a>
+        </div>
+
+    </div>
+
+</div>
+{% endblock content %}

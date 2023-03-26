@@ -1,0 +1,69 @@
+{% extends "core/base.html" %}
+
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="border-bottom text-white">Contact</h1>
+    <div class="text-white">
+        <div class="text-center">
+            <p class="mt-5">Do you have any questions? Please do not hesitate to contact.I will come back to you within
+                a matter of hours to help you.</p>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm-4">
+                <form action="">
+                    <p>Your Name</p>
+                    <input type="text" class="form-control" />
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <form action="">
+                    <p>Your Email*</p>
+                    <input type="email" class="form-control" required />
+                </form>
+            </div>
+            <div class="col-sm-3 offset-1">
+                <div class="text-center">
+                    <i class="fas fa-map-marker-alt fa-2x i-col mt-3" aria-hidden="true"></i>
+                </div>
+                <p class="mt-2">Yamuna Vihar, New Delhi, India</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <form action="">
+                    <p>Your Subject</p>
+                    <input type="text" class="form-control" />
+                </form>
+            </div>
+            <div class="col-sm-3 offset-1 text-center">
+                <div class="text-center">
+                    <i class="fas fa-phone-alt fa-2x i-col mt-3" aria-hidden="true"></i>
+                </div>
+                <p class="mt-2">+91-9xxxxxxxx</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+                <form action="">
+                    <p>Your Message*</p>
+                    <input type="text" class="form-control" style="height:50px" required/>
+                </form>
+            </div>
+            <div class="col-sm-3 offset-1 text-center">
+                <div class="text-center">
+                    <i class="fas fa-envelope fa-2x i-col mt-3" aria-hidden="true"></i>
+                </div>
+                <p class="mt-2">Contact@email.com</p>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary mt-3">Submit</button>
+    <div class="my-5 text-center">  
+        <a href="https://www.twitter.com/shohelrana_" target="_blank"><i class="fab fa-twitter fa-lg i-col mt-3" aria-hidden="true"></i></a>
+        <a class="a-mag" href="https://www.facebook.com/shohel.rana.568" target="_blank"><i class="fab fa-facebook-f fa-lg i-col mt-3" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/shohelrana_/" style="margin-right: 10px;" target="_blank"><i class="fab fa-instagram fa-lg i-col mt-3" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/shohel-rana-0b1b1b1b9/" target="_blank"><i class="fab fa-linkedin-in fa-lg i-col mt-3" aria-hidden="true"></i></a>
+    </div>
+</div>
+{% endblock content %}

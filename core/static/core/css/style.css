@@ -1,0 +1,42 @@
+html, body {
+    height: 100% !important;  
+}
+
+.container-fluid {
+    min-height: 100% !important; 
+}
+
+#rborder{
+    border-right: 2px solid #ccc;
+}
+
+#bborder{
+    border-bottom: 2px solid yellow;
+}
+
+.i-col{
+    color: chartreuse;
+}
+
+.p-col{
+    color: #c5d5cb;
+}
+
+.a-mag{
+    margin: 0 10px;
+}
+
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: black;
+    background-color: rgba(255, 255, 0, 0.628);
+}
+
+a.nav-link.active{
+    color: black;
+    background-color: yellow;
+    font-weight: bold;
+}

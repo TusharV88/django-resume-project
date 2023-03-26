@@ -1,0 +1,15 @@
+{% load static %}
+<div class="h-100" id="rborder">
+    <div class="text-center">
+        <img src="{% static 'core/images/face.jpg' %}" width="100px" alt="logo" class="img-fluid rounded-circle mt-5">
+        <h5 class="text-center text-white mt-3" style="font-family: roboto slab;">Md. Shohel Rana</h5>
+        <p class="text-center text-white">Web Developer</p>
+    </div>
+    <hr id="bborder"></hr>
+    <nav class="nav flex-column text-center">
+        <a class="nav-link {{home}}" href="{% url 'home' %}">Home</a>
+        <a class="nav-link {{services}}" href="{% url 'services' %}">Services</a>
+        <a class="nav-link {{skill}}" href="{% url 'skill' %}">Skill</a>
+        <a class="nav-link {{contact}}" href="{% url 'contact' %}">Contact</a>
+    </nav>
+</div>
